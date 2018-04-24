@@ -82,6 +82,9 @@ var compile = function(sources, options, callback) {
           ],
           "*": [
             "abi",
+            "metadata",
+            "devdoc",
+            "userdoc",
             "evm.bytecode.object",
             "evm.bytecode.sourceMap",
             "evm.deployedBytecode.object",
